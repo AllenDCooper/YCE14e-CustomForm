@@ -1,0 +1,34 @@
+.container {
+  max-width: 960px;
+}
+
+.lh-condensed { line-height: 1.25; }
+
+/* custom css */
+
+@media (min-width: 768px) {
+  .price-container {
+    position: fixed;
+    right: 40px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+/* .price-block {
+  position: fixed;
+  left: 0;
+  top: 0;
+} */
+
+#error-message, #error-message-submit {
+  color: red;
+}
+
+.small-print {
+  margin-bottom: 20px;
+}
+
+.red{
+  color: red;
+}
